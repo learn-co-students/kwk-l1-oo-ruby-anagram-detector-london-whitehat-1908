@@ -22,10 +22,12 @@ class Anagram
 	 #attr_accessor :anagram_array
 
 	attr_accessor :anagram
+	#
 
 	def initialize(anagram) #anagram is single input word
 		@anagram = anagram
 	end
+	#this is so you can access the class(object) and give it characteristics, you can now call it anagram, before it was the guts so you couldn't.
 
 	def match(sentence)
 		#takes a possible array of anagrams
